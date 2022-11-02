@@ -1,15 +1,14 @@
-﻿int A = -9;
-int B = -3;
-int max = -3;
-int min = -3;
+﻿int A = 2;
+int B = 10;
+int max = B;
+int min = B;
 
-if (B > A) B = max;
-else max = A;
+if (B > A) max = B; 
+    else  min = B;
+if (A > B) max = A;
+    else  min = A;
 
-if (B < A) B = min;
-else min = A;
-
-Console.WriteLine("max = "); 
+Console.Write("max = ");
 Console.WriteLine(max);
-Console.WriteLine("min = ");
+Console.Write("min = ");
 Console.WriteLine(min);
