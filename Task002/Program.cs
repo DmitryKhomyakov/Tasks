@@ -1,6 +1,6 @@
-﻿int a = 22;
-int b = 3;
-int c = 9;
+﻿int a = -5;
+int b = 6;
+int c = 2;
 int max = a;
 
 if (b > max) max = b;
