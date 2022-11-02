@@ -1,12 +1,10 @@
-﻿int number = 5;
-int startnumber = 1;
-int endnumber = 5;
-int count = 0;
-while (startnumber <= endnumber) 
+﻿int n = 8;
+int number = 1;
+
+while (number <= n) 
     { 
-     if (5 % 2 == 0) Console.WriteLine("чётные");
+     
+     if (number % 2 == 0) Console.WriteLine(number);
     
-    else Console.WriteLine("Нечетное");
-    count = count + 1;
+    number += 1;
     }
-if (startnumber > endnumber)  Console.WriteLine("четные числа = ");  
